@@ -10,6 +10,9 @@ import UIKit
 
 class TypeTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var typeLabel: UILabel!
+    @IBOutlet weak var amountLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

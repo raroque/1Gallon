@@ -1,0 +1,15 @@
+PODS:
+  - SCLAlertView (0.7.0)
+  - Timepiece (1.0.1)
+
+DEPENDENCIES:
+  - SCLAlertView
+  - Timepiece
+
+SPEC CHECKSUMS:
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  Timepiece: 59cdc48089645cce07803c15116293b346ca457d
+
+PODFILE CHECKSUM: 95fa300725b2ff6d23e24fb32ef56d14202a68f2
+
+COCOAPODS: 1.1.0.rc.2

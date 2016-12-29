@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-1 Gallon.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-1 GallonTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-1 GallonUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SCLAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Timepiece.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0E5F02789762AFF7C0CA9BAA0E24811A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B54BC257EB22D49804590D4507624AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7748E2ABF858928AAF2DBBD4D4F92A06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C5497E9A6C9BE310649983B8B6382D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D0CF88CA8E589A9793795432545EE52F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

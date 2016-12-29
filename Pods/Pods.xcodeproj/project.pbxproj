@@ -1,0 +1,1027 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D5D3CF455B78D2A430FD8B6B8A0769 /* Pods-1 GallonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07192595BE299F4AEA7EB2686EB823 /* Pods-1 GallonTests-dummy.m */; };
+		0D1F16E2909BA8CC4393A9DFFB07B342 /* Pods-1 Gallon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C24623E4D9D96CFAD52B0B3CE1D5FDC7 /* Pods-1 Gallon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FFF8DDD52DB280710D92D800F1C80FF /* Pods-1 GallonUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F023FD7CC4908B13141A344E32A38E7 /* Pods-1 GallonUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1096F58BE119AF60707E7EBED0D06D71 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2387C3512C7FF6751E7CBC4A84A05611 /* SCLExtensions.swift */; };
+		1F0DE491193B3480EADFDC4B4291FDDA /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF49333304C7906A56CA90410956AAE9 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37717E614E75B4DD90FDD4AC2ED0D402 /* DateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEDA4192199BE0B13DDFE605A68DFA2 /* DateComponents+Timepiece.swift */; };
+		409E2B408B189A773A4525396A2E6617 /* Pods-1 GallonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 140DCEEE68B1B1B784EF2AF6CFB11800 /* Pods-1 GallonUITests-dummy.m */; };
+		55CDFD159771366424D407BCC7562C5A /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C92416691D11563102682A6387D80D /* String+Timepiece.swift */; };
+		59198A3273D7A463BAD8617555FD3E43 /* Pods-1 Gallon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 033D1076AB3417B43AF90A139CE30106 /* Pods-1 Gallon-dummy.m */; };
+		5D06A596BE22E542CC9464C36A3E737D /* Pods-1 GallonTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95FE23102E88F5DC4DCD9069CB3A801A /* Pods-1 GallonTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C377B42B0F04628742B0A20FA8C5EB8 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B0D5374D6BB5927068F5EAF6450C43 /* SCLAlertView.swift */; };
+		A0690DAD9AA3FE104AE96DAE7304AD42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		BD456BA8862589CDF8E7CA0A3C2DF286 /* Timepiece-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49613B236543C285D9A8B560FB4B7B /* Timepiece-dummy.m */; };
+		C9981069F0A17677F1661C27500A7978 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C9F979986E490332503598B50630D6E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		CF28D4395CD93F0A27E3291BE7A5FB7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DB0EB72C24FB23C4CC15EA5A669511FF /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B17721F6AC93A789B6500A87707AB4 /* Int+Timepiece.swift */; };
+		E5FE023378FD4B3652828044DFDEC5BB /* Date+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259966CA7FD9E330CA9D62D3534839F /* Date+Timepiece.swift */; };
+		F0050F37808D634B1A24636FE54AD006 /* Timepiece-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA7815D30EE4A06FC29366EC17B71B2 /* Timepiece-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBA68879294EF538F1FAB505867FA0B1 /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF17ECF73B2401B063A1E3F579EDD5D /* SCLAlertView-dummy.m */; };
+		FBDE3E656B257167DC434E3C875FA3AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EE0AD765A2CCAEA47293FA2F9AFE526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0CF88CA8E589A9793795432545EE52F;
+			remoteInfo = SCLAlertView;
+		};
+		9CE451D66D762F1603A34D3A683221F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E5F02789762AFF7C0CA9BAA0E24811A;
+			remoteInfo = Timepiece;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033D1076AB3417B43AF90A139CE30106 /* Pods-1 Gallon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-1 Gallon-dummy.m"; sourceTree = "<group>"; };
+		06F5FCCFFB13DC384152DABA55BEC6B4 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		10044CE1F835F3EBCBBDABC22E2BD41D /* Pods-1 Gallon-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-1 Gallon-resources.sh"; sourceTree = "<group>"; };
+		10329A22B08F65CD2F5C4474D0A49E9F /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		140DCEEE68B1B1B784EF2AF6CFB11800 /* Pods-1 GallonUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-1 GallonUITests-dummy.m"; sourceTree = "<group>"; };
+		1BEDA4192199BE0B13DDFE605A68DFA2 /* DateComponents+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateComponents+Timepiece.swift"; path = "Sources/DateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		221C9101CAF12EE22D0074B5B2A85D0E /* Pods-1 GallonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-1 GallonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2387C3512C7FF6751E7CBC4A84A05611 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		2C07192595BE299F4AEA7EB2686EB823 /* Pods-1 GallonTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-1 GallonTests-dummy.m"; sourceTree = "<group>"; };
+		300396281BD10705BC2431371B8B4178 /* Pods_1_Gallon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_1_Gallon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B945B53816C5F291A65D1765E93594 /* Pods-1 Gallon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-1 Gallon-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A867350E5A9F099F512D342640FCF5C /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		3E4E4D5ED0113C393A7640B69D9D3B13 /* Pods-1 Gallon-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-1 Gallon-frameworks.sh"; sourceTree = "<group>"; };
+		41C92416691D11563102682A6387D80D /* String+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Timepiece.swift"; path = "Sources/String+Timepiece.swift"; sourceTree = "<group>"; };
+		4EA7815D30EE4A06FC29366EC17B71B2 /* Timepiece-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Timepiece-umbrella.h"; sourceTree = "<group>"; };
+		514C34C154FDFF941E82CF8A2247FB68 /* Pods-1 GallonUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-1 GallonUITests.modulemap"; sourceTree = "<group>"; };
+		52B17721F6AC93A789B6500A87707AB4 /* Int+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Timepiece.swift"; path = "Sources/Int+Timepiece.swift"; sourceTree = "<group>"; };
+		55A301FEFB75366FD8062595F673DD49 /* Pods-1 GallonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-1 GallonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		59ED141D1508DE6364AF2B5877580E38 /* Pods-1 GallonUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-1 GallonUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60838D05E4B4C33B19D5E0E6DF090F37 /* Pods-1 GallonTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-1 GallonTests.modulemap"; sourceTree = "<group>"; };
+		62493A861C1C0633A73108A260CC8138 /* Pods-1 GallonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-1 GallonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6259966CA7FD9E330CA9D62D3534839F /* Date+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Timepiece.swift"; path = "Sources/Date+Timepiece.swift"; sourceTree = "<group>"; };
+		63E65FFCAF6FCE90589863EB70FD06BD /* Pods-1 GallonUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-1 GallonUITests-resources.sh"; sourceTree = "<group>"; };
+		64315F8A4FD35BF805346F81B3DFB12B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BFD39216AD10BB895BA2282FCDC7992 /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		708B0453FB23092C2083D936A2A648C2 /* Timepiece-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Timepiece-prefix.pch"; sourceTree = "<group>"; };
+		80B0D5374D6BB5927068F5EAF6450C43 /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		82013390E778B6AFD0DF3B7CD936086D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8240649DCAD52C0B2F84CFEA4521D978 /* Timepiece.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Timepiece.modulemap; sourceTree = "<group>"; };
+		864749CDB22AAA325CFB755C20B79091 /* Pods-1 GallonTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-1 GallonTests-frameworks.sh"; sourceTree = "<group>"; };
+		8AC83D8EE8DCF19ED3555766CC9DB6CD /* Timepiece.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Timepiece.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F997516A8AB072DB3A92C570D683E4E /* Pods-1 Gallon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-1 Gallon.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A53EEB4DBCFBE9CFFD2C634314D0FD /* Pods_1_GallonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_1_GallonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FE23102E88F5DC4DCD9069CB3A801A /* Pods-1 GallonTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-1 GallonTests-umbrella.h"; sourceTree = "<group>"; };
+		9F023FD7CC4908B13141A344E32A38E7 /* Pods-1 GallonUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-1 GallonUITests-umbrella.h"; sourceTree = "<group>"; };
+		A0EF3BAF2FD24FB2A9943C3340B02406 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17B3C5E27B098EB1DE1A649D15CD32E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF17ECF73B2401B063A1E3F579EDD5D /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		B1DF31362DF10F1541DA8B8C18A6C7E9 /* Pods-1 GallonTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-1 GallonTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B51349971E48AB49682A89EF3ADB7223 /* Pods-1 Gallon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-1 Gallon.debug.xcconfig"; sourceTree = "<group>"; };
+		B567B74D0D0BFB920C703DC52B44FF1B /* Pods-1 GallonTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-1 GallonTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5693C1FC4965F330C364498DD1CE8F5 /* Pods-1 Gallon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-1 Gallon.modulemap"; sourceTree = "<group>"; };
+		BAB4D557ED1A6A99AD84C6206F7C1B57 /* Pods-1 GallonUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-1 GallonUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BC9D5D3669A374C2A10DCA2A820144DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24623E4D9D96CFAD52B0B3CE1D5FDC7 /* Pods-1 Gallon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-1 Gallon-umbrella.h"; sourceTree = "<group>"; };
+		CC9C99AC37BA815B9BE127C2D17F3740 /* Pods_1_GallonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_1_GallonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4802B4414940D9D8CAFD740D774FA0A /* Pods-1 GallonTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-1 GallonTests-resources.sh"; sourceTree = "<group>"; };
+		DA49613B236543C285D9A8B560FB4B7B /* Timepiece-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Timepiece-dummy.m"; sourceTree = "<group>"; };
+		E1F355AA3C0C636D83A81B503E3099AA /* Pods-1 GallonUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-1 GallonUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7965BACA8DBE6B200D3BD368CA0EA87 /* Pods-1 Gallon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-1 Gallon-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9353EC26A9B2A741531DB2A58A92CD7 /* Pods-1 GallonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-1 GallonTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8D7CA1C495432055F0AD6BC20C66CD0 /* Timepiece.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Timepiece.xcconfig; sourceTree = "<group>"; };
+		FF49333304C7906A56CA90410956AAE9 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5285EB739973E9CA1506A8BBD277FC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F979986E490332503598B50630D6E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9E155DAD985BC4265CA4FF9886FCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9981069F0A17677F1661C27500A7978 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9377DB796DCE60C4F3850CAAC2FDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF28D4395CD93F0A27E3291BE7A5FB7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5157F9F5DD0C7307C79912FBA230C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0690DAD9AA3FE104AE96DAE7304AD42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37EC23D19ADB559B4FF90B0600B8312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDE3E656B257167DC434E3C875FA3AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41B7337341199144E3260EB7AE929AE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				300396281BD10705BC2431371B8B4178 /* Pods_1_Gallon.framework */,
+				CC9C99AC37BA815B9BE127C2D17F3740 /* Pods_1_GallonTests.framework */,
+				93A53EEB4DBCFBE9CFFD2C634314D0FD /* Pods_1_GallonUITests.framework */,
+				10329A22B08F65CD2F5C4474D0A49E9F /* SCLAlertView.framework */,
+				8AC83D8EE8DCF19ED3555766CC9DB6CD /* Timepiece.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		659B5F927B8AC4E65329FE739BE83857 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				80B0D5374D6BB5927068F5EAF6450C43 /* SCLAlertView.swift */,
+				2387C3512C7FF6751E7CBC4A84A05611 /* SCLExtensions.swift */,
+				8E3101E37C305D300F3C1D9ADE2D2309 /* Support Files */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		69C874A21D649627A4241188A53C9A09 /* Timepiece */ = {
+			isa = PBXGroup;
+			children = (
+				6259966CA7FD9E330CA9D62D3534839F /* Date+Timepiece.swift */,
+				1BEDA4192199BE0B13DDFE605A68DFA2 /* DateComponents+Timepiece.swift */,
+				52B17721F6AC93A789B6500A87707AB4 /* Int+Timepiece.swift */,
+				41C92416691D11563102682A6387D80D /* String+Timepiece.swift */,
+				C4808AB08E7D01283DC876513ABB97C3 /* Support Files */,
+			);
+			path = Timepiece;
+			sourceTree = "<group>";
+		};
+		7DA7434806A165A7C6B05E5BC6C8C453 /* Pods-1 GallonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC9D5D3669A374C2A10DCA2A820144DD /* Info.plist */,
+				514C34C154FDFF941E82CF8A2247FB68 /* Pods-1 GallonUITests.modulemap */,
+				59ED141D1508DE6364AF2B5877580E38 /* Pods-1 GallonUITests-acknowledgements.markdown */,
+				E1F355AA3C0C636D83A81B503E3099AA /* Pods-1 GallonUITests-acknowledgements.plist */,
+				140DCEEE68B1B1B784EF2AF6CFB11800 /* Pods-1 GallonUITests-dummy.m */,
+				BAB4D557ED1A6A99AD84C6206F7C1B57 /* Pods-1 GallonUITests-frameworks.sh */,
+				63E65FFCAF6FCE90589863EB70FD06BD /* Pods-1 GallonUITests-resources.sh */,
+				9F023FD7CC4908B13141A344E32A38E7 /* Pods-1 GallonUITests-umbrella.h */,
+				62493A861C1C0633A73108A260CC8138 /* Pods-1 GallonUITests.debug.xcconfig */,
+				221C9101CAF12EE22D0074B5B2A85D0E /* Pods-1 GallonUITests.release.xcconfig */,
+			);
+			name = "Pods-1 GallonUITests";
+			path = "Target Support Files/Pods-1 GallonUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FB72D1C611B6982E2E809ED167FA2274 /* Pods */,
+				41B7337341199144E3260EB7AE929AE2 /* Products */,
+				F30A9189124D50E6FD40B50AAF6C2954 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E3101E37C305D300F3C1D9ADE2D2309 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64315F8A4FD35BF805346F81B3DFB12B /* Info.plist */,
+				06F5FCCFFB13DC384152DABA55BEC6B4 /* SCLAlertView.modulemap */,
+				6BFD39216AD10BB895BA2282FCDC7992 /* SCLAlertView.xcconfig */,
+				AEF17ECF73B2401B063A1E3F579EDD5D /* SCLAlertView-dummy.m */,
+				3A867350E5A9F099F512D342640FCF5C /* SCLAlertView-prefix.pch */,
+				FF49333304C7906A56CA90410956AAE9 /* SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		B78F3F4488BE0CC76BAE973190847BC6 /* Pods-1 Gallon */ = {
+			isa = PBXGroup;
+			children = (
+				A0EF3BAF2FD24FB2A9943C3340B02406 /* Info.plist */,
+				B5693C1FC4965F330C364498DD1CE8F5 /* Pods-1 Gallon.modulemap */,
+				E7965BACA8DBE6B200D3BD368CA0EA87 /* Pods-1 Gallon-acknowledgements.markdown */,
+				39B945B53816C5F291A65D1765E93594 /* Pods-1 Gallon-acknowledgements.plist */,
+				033D1076AB3417B43AF90A139CE30106 /* Pods-1 Gallon-dummy.m */,
+				3E4E4D5ED0113C393A7640B69D9D3B13 /* Pods-1 Gallon-frameworks.sh */,
+				10044CE1F835F3EBCBBDABC22E2BD41D /* Pods-1 Gallon-resources.sh */,
+				C24623E4D9D96CFAD52B0B3CE1D5FDC7 /* Pods-1 Gallon-umbrella.h */,
+				B51349971E48AB49682A89EF3ADB7223 /* Pods-1 Gallon.debug.xcconfig */,
+				8F997516A8AB072DB3A92C570D683E4E /* Pods-1 Gallon.release.xcconfig */,
+			);
+			name = "Pods-1 Gallon";
+			path = "Target Support Files/Pods-1 Gallon";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4808AB08E7D01283DC876513ABB97C3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82013390E778B6AFD0DF3B7CD936086D /* Info.plist */,
+				8240649DCAD52C0B2F84CFEA4521D978 /* Timepiece.modulemap */,
+				F8D7CA1C495432055F0AD6BC20C66CD0 /* Timepiece.xcconfig */,
+				DA49613B236543C285D9A8B560FB4B7B /* Timepiece-dummy.m */,
+				708B0453FB23092C2083D936A2A648C2 /* Timepiece-prefix.pch */,
+				4EA7815D30EE4A06FC29366EC17B71B2 /* Timepiece-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Timepiece";
+			sourceTree = "<group>";
+		};
+		E342B1781CACBAF17E4CB62572AE0588 /* Pods-1 GallonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A17B3C5E27B098EB1DE1A649D15CD32E /* Info.plist */,
+				60838D05E4B4C33B19D5E0E6DF090F37 /* Pods-1 GallonTests.modulemap */,
+				B1DF31362DF10F1541DA8B8C18A6C7E9 /* Pods-1 GallonTests-acknowledgements.markdown */,
+				B567B74D0D0BFB920C703DC52B44FF1B /* Pods-1 GallonTests-acknowledgements.plist */,
+				2C07192595BE299F4AEA7EB2686EB823 /* Pods-1 GallonTests-dummy.m */,
+				864749CDB22AAA325CFB755C20B79091 /* Pods-1 GallonTests-frameworks.sh */,
+				D4802B4414940D9D8CAFD740D774FA0A /* Pods-1 GallonTests-resources.sh */,
+				95FE23102E88F5DC4DCD9069CB3A801A /* Pods-1 GallonTests-umbrella.h */,
+				55A301FEFB75366FD8062595F673DD49 /* Pods-1 GallonTests.debug.xcconfig */,
+				E9353EC26A9B2A741531DB2A58A92CD7 /* Pods-1 GallonTests.release.xcconfig */,
+			);
+			name = "Pods-1 GallonTests";
+			path = "Target Support Files/Pods-1 GallonTests";
+			sourceTree = "<group>";
+		};
+		F30A9189124D50E6FD40B50AAF6C2954 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B78F3F4488BE0CC76BAE973190847BC6 /* Pods-1 Gallon */,
+				E342B1781CACBAF17E4CB62572AE0588 /* Pods-1 GallonTests */,
+				7DA7434806A165A7C6B05E5BC6C8C453 /* Pods-1 GallonUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FB72D1C611B6982E2E809ED167FA2274 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				659B5F927B8AC4E65329FE739BE83857 /* SCLAlertView */,
+				69C874A21D649627A4241188A53C9A09 /* Timepiece */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		187DC5C780BBF4125201FC8BB0839586 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1F16E2909BA8CC4393A9DFFB07B342 /* Pods-1 Gallon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD85B94F6340B35DA046C0AB42F5079 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0DE491193B3480EADFDC4B4291FDDA /* SCLAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4135A9C17F60872531A5080DFBD1C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0050F37808D634B1A24636FE54AD006 /* Timepiece-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1977F72E3EED5EB9AEA39CFD6F84052 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFF8DDD52DB280710D92D800F1C80FF /* Pods-1 GallonUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88FD6A524CD7A818087F4DD32F0A5F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D06A596BE22E542CC9464C36A3E737D /* Pods-1 GallonTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E5F02789762AFF7C0CA9BAA0E24811A /* Timepiece */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6470A01D0B7999E39665045C850F452 /* Build configuration list for PBXNativeTarget "Timepiece" */;
+			buildPhases = (
+				F5FAB89AD083E76D3CF2E1EFE6FA99A5 /* Sources */,
+				BC9377DB796DCE60C4F3850CAAC2FDCE /* Frameworks */,
+				9B4135A9C17F60872531A5080DFBD1C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timepiece;
+			productName = Timepiece;
+			productReference = 8AC83D8EE8DCF19ED3555766CC9DB6CD /* Timepiece.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B54BC257EB22D49804590D4507624AF /* Pods-1 Gallon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5AF61636F946BCED9598FD35F7E10F7 /* Build configuration list for PBXNativeTarget "Pods-1 Gallon" */;
+			buildPhases = (
+				6220C60D407F3D700EA94F38E27CA838 /* Sources */,
+				C5157F9F5DD0C7307C79912FBA230C3C /* Frameworks */,
+				187DC5C780BBF4125201FC8BB0839586 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D49D768C34A854B4044980FFC647103A /* PBXTargetDependency */,
+				5281C7E9C0808FF5A834C32E26A728E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-1 Gallon";
+			productName = "Pods-1 Gallon";
+			productReference = 300396281BD10705BC2431371B8B4178 /* Pods_1_Gallon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7748E2ABF858928AAF2DBBD4D4F92A06 /* Pods-1 GallonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D591BF2A1AE1BA88BD74898B239589E /* Build configuration list for PBXNativeTarget "Pods-1 GallonUITests" */;
+			buildPhases = (
+				AD8E0982CC7DB63E8720CF1762E105B6 /* Sources */,
+				5285EB739973E9CA1506A8BBD277FC2F /* Frameworks */,
+				B1977F72E3EED5EB9AEA39CFD6F84052 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-1 GallonUITests";
+			productName = "Pods-1 GallonUITests";
+			productReference = 93A53EEB4DBCFBE9CFFD2C634314D0FD /* Pods_1_GallonUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C5497E9A6C9BE310649983B8B6382D4 /* Pods-1 GallonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253A665792AEE30A04E189FF15B70B48 /* Build configuration list for PBXNativeTarget "Pods-1 GallonTests" */;
+			buildPhases = (
+				CDD8958508F2DE3C4361054DE6713478 /* Sources */,
+				F37EC23D19ADB559B4FF90B0600B8312 /* Frameworks */,
+				F88FD6A524CD7A818087F4DD32F0A5F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-1 GallonTests";
+			productName = "Pods-1 GallonTests";
+			productReference = CC9C99AC37BA815B9BE127C2D17F3740 /* Pods_1_GallonTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0CF88CA8E589A9793795432545EE52F /* SCLAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B70ECFA54FABCB07072C71DA58D99F74 /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
+			buildPhases = (
+				0C317D1227B08601407265022445DBA9 /* Sources */,
+				AF9E155DAD985BC4265CA4FF9886FCD5 /* Frameworks */,
+				5BD85B94F6340B35DA046C0AB42F5079 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = 10329A22B08F65CD2F5C4474D0A49E9F /* SCLAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 41B7337341199144E3260EB7AE929AE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B54BC257EB22D49804590D4507624AF /* Pods-1 Gallon */,
+				8C5497E9A6C9BE310649983B8B6382D4 /* Pods-1 GallonTests */,
+				7748E2ABF858928AAF2DBBD4D4F92A06 /* Pods-1 GallonUITests */,
+				D0CF88CA8E589A9793795432545EE52F /* SCLAlertView */,
+				0E5F02789762AFF7C0CA9BAA0E24811A /* Timepiece */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C317D1227B08601407265022445DBA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA68879294EF538F1FAB505867FA0B1 /* SCLAlertView-dummy.m in Sources */,
+				9C377B42B0F04628742B0A20FA8C5EB8 /* SCLAlertView.swift in Sources */,
+				1096F58BE119AF60707E7EBED0D06D71 /* SCLExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6220C60D407F3D700EA94F38E27CA838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59198A3273D7A463BAD8617555FD3E43 /* Pods-1 Gallon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8E0982CC7DB63E8720CF1762E105B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409E2B408B189A773A4525396A2E6617 /* Pods-1 GallonUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD8958508F2DE3C4361054DE6713478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D5D3CF455B78D2A430FD8B6B8A0769 /* Pods-1 GallonTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FAB89AD083E76D3CF2E1EFE6FA99A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FE023378FD4B3652828044DFDEC5BB /* Date+Timepiece.swift in Sources */,
+				37717E614E75B4DD90FDD4AC2ED0D402 /* DateComponents+Timepiece.swift in Sources */,
+				DB0EB72C24FB23C4CC15EA5A669511FF /* Int+Timepiece.swift in Sources */,
+				55CDFD159771366424D407BCC7562C5A /* String+Timepiece.swift in Sources */,
+				BD456BA8862589CDF8E7CA0A3C2DF286 /* Timepiece-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5281C7E9C0808FF5A834C32E26A728E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Timepiece;
+			target = 0E5F02789762AFF7C0CA9BAA0E24811A /* Timepiece */;
+			targetProxy = 9CE451D66D762F1603A34D3A683221F0 /* PBXContainerItemProxy */;
+		};
+		D49D768C34A854B4044980FFC647103A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = D0CF88CA8E589A9793795432545EE52F /* SCLAlertView */;
+			targetProxy = 4EE0AD765A2CCAEA47293FA2F9AFE526 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0B74B753C3D4EDAD04AAC56A5EA81D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A301FEFB75366FD8062595F673DD49 /* Pods-1 GallonTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-1 GallonTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-1 GallonTests/Pods-1 GallonTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_1_GallonTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F4E631984A28A4A1B7832AD706B2345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D7CA1C495432055F0AD6BC20C66CD0 /* Timepiece.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Timepiece/Timepiece-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Timepiece/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Timepiece/Timepiece.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Timepiece;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C21C71D003C4DD8A930D96206C226B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9353EC26A9B2A741531DB2A58A92CD7 /* Pods-1 GallonTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-1 GallonTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-1 GallonTests/Pods-1 GallonTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_1_GallonTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65ADBFE4E026C802A491D22D0A8BC0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F997516A8AB072DB3A92C570D683E4E /* Pods-1 Gallon.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-1 Gallon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-1 Gallon/Pods-1 Gallon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_1_Gallon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C211E80681E3BC83466206452DE0235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFD39216AD10BB895BA2282FCDC7992 /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CAAA571C548D07C90CA17051DD89BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221C9101CAF12EE22D0074B5B2A85D0E /* Pods-1 GallonUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-1 GallonUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-1 GallonUITests/Pods-1 GallonUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_1_GallonUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		944F7AA3CF51F5F3E1F99763E72F5D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFD39216AD10BB895BA2282FCDC7992 /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A427F49F1B3539B6C1C616AF988BDEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62493A861C1C0633A73108A260CC8138 /* Pods-1 GallonUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-1 GallonUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-1 GallonUITests/Pods-1 GallonUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_1_GallonUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0E81DC5A8FCD8B6A61E7588F4CA80CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51349971E48AB49682A89EF3ADB7223 /* Pods-1 Gallon.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-1 Gallon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-1 Gallon/Pods-1 Gallon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_1_Gallon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA49DC348042223CA70D4951B77FB9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D7CA1C495432055F0AD6BC20C66CD0 /* Timepiece.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Timepiece/Timepiece-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Timepiece/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Timepiece/Timepiece.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Timepiece;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		253A665792AEE30A04E189FF15B70B48 /* Build configuration list for PBXNativeTarget "Pods-1 GallonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B74B753C3D4EDAD04AAC56A5EA81D4D /* Debug */,
+				5C21C71D003C4DD8A930D96206C226B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D591BF2A1AE1BA88BD74898B239589E /* Build configuration list for PBXNativeTarget "Pods-1 GallonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A427F49F1B3539B6C1C616AF988BDEDF /* Debug */,
+				7CAAA571C548D07C90CA17051DD89BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5AF61636F946BCED9598FD35F7E10F7 /* Build configuration list for PBXNativeTarget "Pods-1 Gallon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E81DC5A8FCD8B6A61E7588F4CA80CC /* Debug */,
+				65ADBFE4E026C802A491D22D0A8BC0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6470A01D0B7999E39665045C850F452 /* Build configuration list for PBXNativeTarget "Timepiece" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4E631984A28A4A1B7832AD706B2345 /* Debug */,
+				EA49DC348042223CA70D4951B77FB9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B70ECFA54FABCB07072C71DA58D99F74 /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C211E80681E3BC83466206452DE0235 /* Debug */,
+				944F7AA3CF51F5F3E1F99763E72F5D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

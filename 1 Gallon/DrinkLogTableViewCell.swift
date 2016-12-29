@@ -9,6 +9,11 @@
 import UIKit
 
 class DrinkLogTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var descLabel: UILabel!
+    @IBOutlet weak var topBarLine: UIImageView!
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
