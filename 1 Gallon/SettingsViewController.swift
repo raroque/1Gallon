@@ -365,7 +365,6 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     func colorWithHexString (_ hex:String) -> UIColor {
-        //   var cString:String = hex.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet()).uppercased()
         var cString:String = hex.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines).uppercased()
         
         
